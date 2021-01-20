@@ -1,7 +1,7 @@
 USE [master]
 GO
 
-/****** Object:  Database [UzzoBinance]    Script Date: 19/01/2021 12:48:22 ******/
+/******* Object:  Database [UzzoBinance]    Script Date: 19/01/2021 12:48:22 ******/
 CREATE DATABASE [UzzoBinance]
  
 GO
