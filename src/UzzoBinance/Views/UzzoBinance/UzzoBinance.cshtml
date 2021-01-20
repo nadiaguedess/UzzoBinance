@@ -1,0 +1,38 @@
+﻿@model List<UzzoBinance.Models.DataBase.SymbolPrice>
+<div class="container-fluid well-lg">
+    <div class="panel panel-default">
+        <div class="panel-heading">Buscar preços dos ativos Binance</div>
+        <div class="panel-body">
+            <div class="col-lg-12">
+                <div class="col-lg-4">
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="row"><div class="loader"></div></div>
+                    <div class="row begin-countdown">
+                        <div class="col-md-12 text-center">
+                            <progress value="30" max="30" id="pageBeginCountdown"></progress>
+                            <p id="paddingBeginCountdownText"> Begining in <span id="pageBeginCountdownText">30 </span> seconds</p>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="col-lg-12 row">
+                        <form method="post" class="col-lg-6">
+                            <button id="idbtnStop" type="button" class="btn btn-danger btn-block">Stop</button>
+                        </form>
+                        <form method="post" id="idform" class="col-lg-6">
+                            <button id="idbtnStart" type="button" class="btn btn-success btn-block">Processar</button>
+                        </form>
+                       
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--TABELA-->    
+    <div id="idDivTablePrice"></div>
+
+</div>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/UzzoBinance.js"></script>

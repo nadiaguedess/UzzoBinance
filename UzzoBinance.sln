@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AD3FFEF1-D6C4-414B-88BB-78F9536A2B0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{57DED314-6FF4-41F2-BE5F-2CEE8BEBFDAC}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "UzzoBinance", "src\UzzoBinance\UzzoBinance.xproj", "{94818DB0-E12A-48B9-A410-056138F49D25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94818DB0-E12A-48B9-A410-056138F49D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94818DB0-E12A-48B9-A410-056138F49D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94818DB0-E12A-48B9-A410-056138F49D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94818DB0-E12A-48B9-A410-056138F49D25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94818DB0-E12A-48B9-A410-056138F49D25} = {AD3FFEF1-D6C4-414B-88BB-78F9536A2B0D}
+	EndGlobalSection
+EndGlobal

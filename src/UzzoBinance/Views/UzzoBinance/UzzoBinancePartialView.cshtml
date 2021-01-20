@@ -1,0 +1,29 @@
+﻿@model List<UzzoBinance.Models.DataBase.SymbolPrice>
+
+<div class="panel panel-default">
+    <div class="panel-heading">Últimos preços BTC/USDT</div>
+
+    <table class="table" id="tblPrice">
+        <thead>
+            <tr>
+                <th>Par</th>
+                <th>Compra (USDT)</th>
+                <th>Venda (USDT)</th>
+                <th>Data</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.symbol</td>
+                    <td>@item.askPrice</td>
+                    <td>@item.bidPrice</td>
+                    <td>@item.dateAndTimePrice</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
