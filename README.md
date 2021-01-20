@@ -15,3 +15,5 @@ O software conta com:
 Postman collection: https://app.getpostman.com/join-team?invite_code=49aa0c6ee6e85a9369b142ab74608514
   
 Documentação Binance: https://binance-docs.github.io/apidocs/spot/en/#introduction
+
+Video de demonstração do funcionamento do software: https://youtu.be/UItWMjKymbc
